@@ -1,11 +1,15 @@
 
+
+
 @inproceedings{tejera2023acoustic,
   title={Acoustic-Based Detection of UAVs Using Machine Learning: Analysis of Distance and Environmental Effects},
   author={Tejera-Berengue, Diana and Zhu-Zhou, Fangfang and Utrilla-Manso, Manuel and Gil-Pita, Roberto and Rosa-Zurera, Manuel},
   booktitle={2023 IEEE Sensors Applications Symposium (SAS)},
   pages={1--6},
   year={2023},
-  keywords = {type: application, method: Acoustic-based, submethod: Machine Learning, type: Conference},
+  keywords = {evaluation:AUC, type:application, method:Acoustic-based, submethod:Machine\_Learning, publicationtype:Conference
+  MFCC, delta MFCC, delta-delta MFCC, pitch, noise },
+  doi = {https://doi.org/10.1109/SAS58821.2023.10254127},
 
   organization={IEEE}
 }
@@ -18,7 +22,10 @@
   booktitle={2021 International Bhurban Conference on Applied Sciences and Technologies (IBCAST)},
   pages={335--339},
   year={2021},
-  keywords = {type: application, method: Acoustic-based, submethod: Machine Learning,  type: Conference},
+  keywords = {evaluation:Detection Accuracy,evaluation:Precision, type:application, method:Acoustic-based, submethod:Machine\_Learning,  publicationtype:Conference
+  MFCC, Gammatone cepstral coefficients, linear
+prediction coefficients, spectral roll-of, feature analysis},
+  doi = {https://doi.org/10.1109/IBCAST51254.2021.9393232},
   organization={IEEE}
 }
 
@@ -29,7 +36,9 @@
   booktitle={2021 International Siberian Conference on Control and Communications (SIBCON)},
   pages={1--8},
   year={2021},
-  keywords = {type: application, method: Acoustic-based, submethod: Deep Learning, type: Conference},
+  keywords = {evaluation:Detection Accuracy, type:application, method:Acoustic-based, submethod:Deep\_Learning, publicationtype:Conference
+  SVM, MFCC, audio signal detection,  },
+  doi = {https://doi.org/10.1109/SIBCON50419.2021.9438906},
   organization={IEEE}
 }
 
@@ -40,7 +49,10 @@
   booktitle={2022 Workshop on Benchmarking Cyber-Physical Systems and Internet of Things (CPS-IoTBench)},
   pages={7--11},
   year={2022},
-    keywords = {type: application, method: Acoustic-based, submethod: Deep Learning, type: Conference},
+    keywords = {evaluation:Detection Accuracy, evaluation:Identifiction Accuracy,type:application, method:Acoustic-based, submethod:Deep\_Learning, publicationtype:Conference
+    Identification, LSTM, },
+  doi = {https://doi.org/10.1109/CPS-IoTBench56135.2022.00008},
+
   organization={IEEE}
 }
 
@@ -50,31 +62,26 @@
   booktitle={2016 CIE International Conference on Radar (RADAR)},
   pages={1--5},
   year={2016},
-  keywords = {type: application, method: Radar-based, submethod: Machine Learning,  type: Conference},
+  keywords = {evaluation:Detection Accuracy, type:application, method:Radar-based, submethod:Machine\_Learning,  publicationtype:Conference
+  multi-beam, holographic radar, Doppler discrimination, air
+surveillance, UAS },
+  doi = {https://doi.org/10.1109/RADAR.2016.8059282},
   organization={IEEE}
 }
 
-@article{zhang2018detection,
-  title={Detection of multiple micro-drones via cadence velocity diagram analysis},
-  author={Zhang, Wenyu and Li, Gang},
-  journal={Electronics Letters},
-  volume={54},
-  number={7},
-  pages={441--443},
-  year={2018},
-    keywords = {type: application, method: Radar-based, submethod: Machine Learning,  type: Journal},
-  publisher={Wiley Online Library}
-}
+
+
 
 @inproceedings{samuell2021deep,
   title={A Deep Learning Approach for Multi-copter Detection using mm-Wave Radar Sensors: Application of Deep Learning for Multi-copter detection using radar micro-Doppler signatures},
   author={Samuell Aiad Saleip Nasr Alla, George and Maurer, Paulina and Hassan, Abdelmonem and Frangenberg, Michael and Granig, Wolfgang},
   booktitle={Proceedings of the 7th International Conference on Robotics and Artificial Intelligence},
+  keywords = {evaluation:Detection Accuracy, type:application, method:Radar-based, submethod:Deep\_Learning,    publicationtype:Conference,
+  Micro-Doppler Signature,   Radar Cross Section,   Short-time Fourier Transform },
+  doi = {https://doi.org/10.1145/3505688.3505706},
+  year={2021},
   pages={106--111},
-    keywords = {type: application, method: Radar-based, submethod: Machine Learning,  type: Proceedings, micro-Doppler},
-  year={2021}
 }
-
 
 @inproceedings{wang2018drone,
   title={Drone detection based on FD-HOG descriptor},
@@ -82,18 +89,14 @@
   booktitle={2018 International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery (CyberC)},
   pages={433--4333},
   year={2018},
-    keywords = {type: application, method: Vision-based, submethod: Low Level Feature Detection, type: Conference, Generic Fourier Descriptor, HOG },
+    keywords = {evaluation:Detection Accuracy, type:application, method:Vision-based, submethod:Low\_Level\_Feature\_Detection, publicationtype:Conference,
+    Generic\_Fourier\_Descriptor, HOG, Classification },
+  doi = {https://doi.org/10.1109/CyberC.2018.00084},
+
   organization={IEEE}
+
 }
 
-
-@article{unlu2018using,
-  title={Using shape descriptors for UAV detection},
-  author={Unlu, Eren and Zenou, Emmanuel and Riviere, Nicolas},
-    keywords = {type: application, method: Vision-based, submethod: Low Level Feature Detection, type: Journal, Generic Fourier Descriptor, },
-  year={2018},
-  journal={Electronic Imaging}
-}
 
 
 @inproceedings{shi2020objects,
@@ -101,7 +104,10 @@
   author={Shi, Qingbang and Li, Jun},
   booktitle={2020 IEEE 2nd International Conference on Civil Aviation Safety and Information Technology (ICCASIT},
   pages={1048--1052},
-  keywords = {type: application, method: Vision-based, submethod: High Level Feature Detection,    type: Conference, YOLO     },
+  year={2020},
+  keywords = {evaluation:Detection Accuracy, type:application, method:Vision-based, submethod:High\_Level\_Feature\_Detection,    publicationtype:Conference,
+  YoloV3 , Objects Detection,  Anti-UAV , YoloV4  },
+  doi = {https://doi.org/10.1109/ICCASIT50869.2020.9368788},
   organization={IEEE}
 }
 
@@ -114,17 +120,45 @@
   volume={81},
   number={18},
   pages={26185--26198},
-  keywords = {type: application, method: Vision-based, submethod: High Level Feature Detection, type: Journal, YOLO,  },
+  keywords = {evaluation:Detection Accuracy, evaluation:Precision,type:application, method:Vision-based, submethod:High\_Level\_Feature\_Detection, publicationtype:Journal,
+  YoloV3 , Objects Detection},
   year={2022},
-  key = {value},
+  doi = {https://doi.org/10.1007/s11042-022-12939-4},
   publisher={Springer}
 }
 
 
+@ARTICLE{9417613,
+  author={Rai, Prabhat Kumar and Idsøe, Henning and Yakkati, Rajesh Reddy and Kumar, Abhinav and Ali Khan, Mohammed Zafar and Yalavarthy, Phaneendra K. and Cenkeramaddi, Linga Reddy},
+  journal={IEEE Sensors Journal},
+  title={Localization and Activity Classification of Unmanned Aerial Vehicle Using mmWave FMCW Radars},
+  year={2021},
+  volume={21},
+  number={14},
+  pages={16043-16053},
+  keywords={evaluation:Detection Accuracy, type:application, method:Radar-based, submethod:Deep\_Learning, publicationtype:Journal, Radar antennas, Estimation, Aerial vehicles angle, aerial vehicles height, angle estimation, convolutional neural network, FMCW radar},
+  doi={10.1109/JSEN.2021.3075909}}
 
 
 
 
+
+
+
+
+
+
+@article{taha2019machine,
+  title={Machine learning-based drone detection and classification: State-of-the-art in research},
+  author={Taha, Bilal and Shoufan, Abdulhadi},
+  journal={IEEE access},
+  volume={7},
+  pages={138669--138682},
+  year={2019},
+ doi = {https://doi.org/10.1109/ACCESS.2019.2942944},
+  keywords = {evaluation:N.A.,type:survey, method:N.A., submethod:N.A., publicationtype:Journal },
+publisher={IEEE}
+}
 
 
 
